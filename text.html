@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet" crossorigin="anonymous"/>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="/css.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+  <body>
+    <header>
+        <nav class="navbar">
+            <div class="brand-title d-flex align-items-center justify-content-center">
+              <img src='https://assets.msn.com/staticsb/statics/latest/icons-wc/icons/MSNButterfly.svg'/>
+              <h3 class="ms-2 mt-2">msn</h3>
+            </div>
+
+          <div class="search-container">
+            <form class="search-form" onsubmit="return false;">
+              <input type="text" class="search-input">
+              <button type="submit" class="search-button">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+
+          <div class='navbar-links gap-3 align-items-center' id="navbarMenu">
+            <img src="data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2064%2064'%20stroke%3D'%23707070'%3E%3Cg%20class%3D'mectrl_stroke'%20stroke-width%3D'1.9'%20fill%3D'none'%3E%3Ccircle%20cx%3D'32'%20cy%3D'32'%20r%3D'30.25'%2F%3E%3Cg%20transform%3D'matrix(1.1%200%200%201.1%208.8%205.61)'%3E%3Ccircle%20class%3D'mectrl_stroke'%20cx%3D'20'%20cy%3D'16'%20r%3D'7'%2F%3E%3Cpath%20class%3D'mectrl_stroke'%20d%3D'M30%2035h10m-5-5v10M30.833%2032.09A11%2011%200%20009%2034'%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="User Icon"/>
+            <div class="icon-with-badge">
+              <i class="fa-regular fa-bell"></i>
+              <span class="badge">1</span>
+            </div>
+            <i class="fa-solid fa-gear"></i>
+          </div>
+        </nav>
+    </header>
+    
+    <div class="container mt-3">
+      <div class="navigation-category d-flex align-items-center mb-2">
+        <i class="fa-solid fa-cloud"></i>
+        <span>
+          DAVAO / 26°C
+        </span>
+        <div class="d-flex">
+          <span>
+            SPORTS
+          </span> 
+          <span>
+            GAMING
+          </span> 
+          <span>
+            MONEY
+          </span>
+          <span>
+            TRAVEL
+          </span>
+          <span>
+            VIDEO
+          </span>
+          <span>
+            PLAY
+          </span>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-6">
+            <div class="carousel-container mb-3">
+              <div class="carousel">
+                <div class="carousel-images">
+                  <div class="carousel-image">
+                    <img src="https://via.placeholder.com/800x400?text=Image+1" alt="Image 1">
+                    <div class="carousel-title">Title for Image 1</div>
+                    <div class="carousel-info">
+                      <div class="carousel-content">
+                        <img src="https://play-lh.googleusercontent.com/MZMbRcfKg2rgwpywu6bZph_NTiECpYLMjjDxafDp87D7lXrAhokyV5GXOYriVZcDwA"/>
+                        Some content about Image 1.
+                      </div>
+                      <div class="carousel-actions">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <span>1</span>
+                        <i class="fa-regular fa-thumbs-down"></i>
+                        <span>2</span>
+                        <i class="fa-regular fa-message"></i>
+                        <span>3</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-image">
+                    <img src="https://via.placeholder.com/800x400?text=Image+2" alt="Image 2">
+                    <div class="carousel-title">Title for Image 2</div>
+                    <div class="carousel-info">
+                      <div class="carousel-content">
+                        <img src="https://png.pngtree.com/png-clipart/20190611/original/pngtree-wolf-logo-png-image_2306634.jpg"/>
+                        Some content about Image 2.
+                      </div>
+                      <div class="carousel-actions">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <span>5</span>
+                        <i class="fa-regular fa-thumbs-down"></i>
+                        <span>6</span>
+                        <i class="fa-regular fa-message"></i>
+                        <span>7</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-image">
+                    <img src="https://via.placeholder.com/800x400?text=Image+3" alt="Image 3">
+                    <div class="carousel-title">Title for Image 3</div>
+                    <div class="carousel-info">
+                      <div class="carousel-content">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNo7WM9PHyM8ypmyguH-uSWP4xFDP6o5XFUA&s"/>
+                        Some content about Image 3.
+                      </div>
+                      <div class="carousel-actions">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <span>11</span>
+                        <i class="fa-regular fa-thumbs-down"></i>
+                        <span>22</span>
+                        <i class="fa-regular fa-message"></i>
+                        <span>33</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-image">
+                    <img src="https://via.placeholder.com/800x400?text=Image+4" alt="Image 4">
+                    <div class="carousel-title">Title for Image 4</div>
+                    <div class="carousel-info">
+                      <div class="carousel-content">
+                        <img src="https://banner2.cleanpng.com/20180715/zio/kisspng-logo-font-flame-logo-5b4b2d7c3b73e0.2237387315316535002435.jpg"/>
+                        Some content about Image 4.
+                      </div>
+                      <div class="carousel-actions">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <span>22</span>
+                        <i class="fa-regular fa-thumbs-down"></i>
+                        <span>33</span>
+                        <i class="fa-regular fa-message"></i>
+                        <span>44</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-image">
+                    <img src="https://via.placeholder.com/800x400?text=Image+5" alt="Image 5">
+                    <div class="carousel-title">Title for Image 5</div>
+                    <div class="carousel-info">
+                      <div class="carousel-content">
+                        <img src="https://w7.pngwing.com/pngs/985/67/png-transparent-blue-logo-circle-logo-symbol-font-templates-blue-angle-text-thumbnail.png"/>
+                        Some content about Image 5.
+                      </div>
+                      <div class="carousel-actions">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <span>55</span>
+                        <i class="fa-regular fa-thumbs-down"></i>
+                        <span>66</span>
+                        <i class="fa-regular fa-message"></i>
+                        <span>77</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+                
+                <div class="carousel-dots">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(4)"></span>
+                  <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+              </div> 
+            </div>
+        </div>
+
+        <div class="col-sm-12-col-md-12 col-lg-4 col-xl-6">
+            <div class="ads-container">
+              <div class="card" style='background-image: url("https://via.placeholder.com/800x400?text=Image+1");'>
+                  <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+              </div>
+              
+              <div class="card d-md-block d-lg-none d-xl-block" style='background-image: url("https://png.pngtree.com/png-vector/20220526/ourmid/pngtree-ad-icon-vector-art-illustration-png-image_4723115.png");'>
+                  <div class="card-body">
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  </div>
+              </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card">
+                <div class="card-image ms-3">
+                  <img src="https://play-lh.googleusercontent.com/MZMbRcfKg2rgwpywu6bZph_NTiECpYLMjjDxafDp87D7lXrAhokyV5GXOYriVZcDwA"/>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+          
+            <div class="card">
+                <div class="card-image ms-3">
+                <img src="https://banner2.cleanpng.com/20180715/zio/kisspng-logo-font-flame-logo-5b4b2d7c3b73e0.2237387315316535002435.jpg"/>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   
+      <div class="card-container">
+        <div class="card">
+            <div class="card-image ms-3">
+              <img src="https://play-lh.googleusercontent.com/MZMbRcfKg2rgwpywu6bZph_NTiECpYLMjjDxafDp87D7lXrAhokyV5GXOYriVZcDwA"/>
+            </div>
+
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+      
+        <div class="card">
+            <div class="card-image ms-3">
+              <img src="https://banner2.cleanpng.com/20180715/zio/kisspng-logo-font-flame-logo-5b4b2d7c3b73e0.2237387315316535002435.jpg"/>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+      
+        <div class="card">
+            <div class="card-image ms-3">
+              <img src="https://w7.pngwing.com/pngs/985/67/png-transparent-blue-logo-circle-logo-symbol-font-templates-blue-angle-text-thumbnail.png"/>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+      
+        <div class="card">
+            <div class="card-image ms-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNo7WM9PHyM8ypmyguH-uSWP4xFDP6o5XFUA&s"/>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image ms-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNo7WM9PHyM8ypmyguH-uSWP4xFDP6o5XFUA&s"/>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+      </div>
+         
+    </div>
+
+    <script>
+        let slideIndex = 1;
+        showSlide(slideIndex);
+    
+        function moveSlide(n) {
+            showSlide(slideIndex += n);
+        }
+    
+        function currentSlide(n) {
+            showSlide(slideIndex = n);
+        }
+    
+        function showSlide(n) {
+            const slides = document.getElementsByClassName("carousel-image");
+            const dots = document.getElementsByClassName("dot");
+    
+            if (n > slides.length) { slideIndex = 1; }
+            if (n < 1) { slideIndex = slides.length; }
+    
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+    
+            for (let i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+    
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    
+        // Auto move the slides every 1 second
+        setInterval(() => {
+            moveSlide(1); 
+        }, 1000); 
+    </script>
+  
+  </body>
+</html>
